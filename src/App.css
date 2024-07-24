@@ -12,10 +12,10 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+  filter: drop-shadow(0 0 2em #c5d0cfaa);
 }
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  filter: drop-shadow(0 0 2em #eef7f9aa);
 }
 
 @keyframes logo-spin {
@@ -38,5 +38,31 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #c53030;
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  font-family: cursive;
+  padding:5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #4dbb70;
+  font-size: 18px;
+  padding: 10px 15px;
+  transition: all 0.3s ease; 
+}
+
+.navbar a:hover {
+  color: #599d86; 
+  transform: scale(1.1); 
+  font-weight: bold; 
+  display:flex;
 }
