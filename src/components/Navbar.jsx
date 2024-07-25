@@ -8,9 +8,10 @@ const Navbar = () => {
 
     return (
         <div className= "navbar">
-            <Link to="/" className="button is-warning"> Home</Link>
-            <Link to="/projects" className="button is-warning"> Projects</Link>
-            <Link to="/skills" className="button is-warning"> Skills</Link>
+            
+            <Link to="/" className="button is-link"> Home</Link>
+            <Link to="/projects" className="button is-link"> Projects</Link>
+            <Link to="/skills" className="button is-link"> Skills</Link>
 
         </div>
     );

@@ -1,0 +1,28 @@
+.projects-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .animated-image {
+    width: 600px;  /* Adjust the size as needed */
+    height: auto;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .animated-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .button.is-warning {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  
