@@ -38,31 +38,77 @@
 }
 
 .read-the-docs {
-  color: #c53030;
+  color: #e9cdcd;
 }
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #c5d0cfaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #eef7f9aa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #e9cdcd;
+}
+
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 0;
-  text-align: center;
-  width: 100%;
+  left: 0;
+  height: 100%;
   display: flex;
-  justify-content: center;
-  gap: 10px;
-  font-family: cursive;
-  padding:5px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 10px;
+  background-color: #40504a;
+  text-align: right;
 }
 
 .navbar a {
   text-decoration: none;
   color: #4dbb70;
-  font-size: 18px;
+  font-size: 20px;
   padding: 10px 15px;
-  transition: all 0.3s ease; 
+  transition: all 0.3s ease;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: right;
 }
 
 .navbar a:hover {
-  color: #599d86; 
-  transform: scale(1.1); 
-  font-weight: bold; 
-  display:flex;
+  color: #599d86;
+  transform: scale(1.1);
+  font-weight: bold;
 }

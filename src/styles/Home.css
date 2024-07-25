@@ -1,12 +1,26 @@
 body {
-    color: rgb(3, 33, 6);
-    background-color: rgb(23, 34, 23);
-    font-family:fantasy;
-    font-weight: bold;
     color: rgb(178, 232, 178);
+    background-color: rgb(23, 34, 23);
+    font-family: fantasy;
+    font-weight: bold;
     background-image: url("https://images.unsplash.com/photo-1554609336-64209c2154f6?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
+    z-index: -1;
+}
+
 .round-image {
     width: 400px;
     height: 500px;
@@ -34,3 +48,15 @@ body {
     margin: 0 10px;
 }
 
+p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    position: relative;
+}
+
+.aboutjasmine, .image-grid, .container {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 1rem;
+    border-radius: 10px;
+    color: rgb(178, 232, 178); /* Ensure the text color is consistent */
+}
