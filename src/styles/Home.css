@@ -1,62 +1,38 @@
-body {
-    color: rgb(178, 232, 178);
-    background-color: rgb(23, 34, 23);
-    font-family: fantasy;
-    font-weight: bold;
-    background-image: url("https://images.unsplash.com/photo-1554609336-64209c2154f6?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
 
-body::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Adjust the transparency as needed */
-    z-index: -1;
-}
-
-.round-image {
-    width: 400px;
-    height: 500px;
-    border-radius: 75%;
-    object-fit: cover;
-}
-
-.slider {
-    overflow: hidden;
-    width: 100%;
-    position: relative;
-}
-
-.slider-wrapper {
+#about-jasmine {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  #title-main {
+    font-size: 80px;
+    margin: 0;
+  }
+  
+  #title-sub {
+    font-size: 40px;
+    margin: 0;
+  }
+  
+  #image-grid {
     display: flex;
-    transition: transform 0.5s ease;
-}
-
-.interest {
-    flex: 0 0 20%;
-    width: 40%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 30%;
-    margin: 0 10px;
-}
-
-p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    z-index: 1;
-    position: relative;
-}
-
-.aboutjasmine, .image-grid, .container {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
-    padding: 1rem;
-    border-radius: 10px;
-    color: rgb(178, 232, 178); /* Ensure the text color is consistent */
-}
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #rotating-image {
+    width: 450px;
+    height: 600px;
+    border-radius: 50%;
+    animation: rotate 5s linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

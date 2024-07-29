@@ -1,28 +1,40 @@
 .projects-container {
-    text-align: center;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
   }
   
   .project {
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 9px solid #04ff15;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
   
-  .animated-image {
-    width: 600px;  /* Adjust the size as needed */
+  .project img {
+    max-width: 100%;
     height: auto;
-    margin: 10px auto;
-    border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
+    border-radius: 8px;
   }
   
-  .animated-image:hover {
-    transform: scale(1.1);
-  }
-  
-  .button.is-warning {
-    display: block;
-    margin: 10px auto;
+  .project-info {
     text-align: center;
+    margin-top: 10px;
+  }
+  
+  .project-info .button {
+    margin-top: 10px;
+    background-color: rgb(167, 215, 170);
+    color: black
+  }
+  
+  .project-info p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #bcd7be;
   }
   
   

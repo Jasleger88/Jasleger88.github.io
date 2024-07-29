@@ -7,9 +7,11 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <Link to="/" className="button is-link">Home</Link>
-            <Link to="/projects" className="button is-link">Projects</Link>
-            {/* <Link to="/skills" className="button is-link">Skills</Link> */}
+            <Link to="/" className="button is-success is-dark">Home</Link>
+            <Link to="/Aboutme" className= "button is-success is-dark"> About Me</Link>
+            <Link to="/projects" className="button is-success is-dark">Projects</Link>
+            <Link to="/Resume" className="button is-success is-dark">Resume</Link>
+            
         </div>
     );
 };
