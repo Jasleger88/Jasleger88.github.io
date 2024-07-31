@@ -1,4 +1,3 @@
-
 #about-jasmine {
     text-align: center;
     margin-top: 20px;
@@ -16,15 +15,17 @@
   
   #image-grid {
     display: flex;
-    justify-content: center;
+    justify-content: center; /* Center the images horizontally */
+    align-items: center; /* Center the images vertically if necessary */
     margin-top: 20px;
+    flex-wrap: wrap; /* Allow wrapping if there are multiple images */
   }
   
   #rotating-image {
     width: 450px;
     height: 600px;
     border-radius: 50%;
-    animation: rotate 5s linear;
+    animation: rotate 5s linear ; /* Add 'infinite' to keep the rotation continuous */
   }
   
   @keyframes rotate {

@@ -1,0 +1,32 @@
+.footer {
+    background-color: #315031;
+    padding: 1rem 0;
+    position: relative; 
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box; 
+}
+
+.footer .content {
+    max-width: 1200px;
+    text-align: center; 
+}
+
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center; 
+}
+
+.social-links a {
+    margin: 0 0.5rem;
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #1ea971; 
+}

@@ -86,14 +86,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  height: 100%;
+  width: 10%;
+  height: 20px; 
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-end;
-  padding: 10px;
-  background-color: #40504a;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
   text-align: right;
+  z-index: 1000; 
 }
 
 .navbar a {
@@ -102,13 +103,12 @@
   font-size: 20px;
   padding: 10px 15px;
   transition: all 0.3s ease;
-  margin-bottom: 10px;
-  width: 100%;
-  text-align: right;
+  margin-left: 5px; 
+  text-align: center;
 }
 
 .navbar a:hover {
   color: #599d86;
   transform: scale(1.1);
-  font-weight: bold;
+  font-weight:bold;
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from './Footer';
 import '../styles/Home.css';
 
 const Home = () => {
@@ -15,8 +16,10 @@ const Home = () => {
                     alt="A picture of the developer"
                 />
             </div>
+            <Footer />
         </>
     );
 };
 
 export default Home;
+
