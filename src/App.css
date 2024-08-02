@@ -83,32 +83,33 @@
 }
 
 .navbar {
-  position: fixed;
+  background-color: #75a749;
+  padding: 10px 0;
+  width: 100%;
   top: 0;
-  left: 0;
-  width: 10%;
-  height: 20px; 
+  z-index: 1000;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  text-align: right;
-  z-index: 1000; 
+  justify-content: center;
 }
 
-.navbar a {
+.navbar .button {
+  margin: 0 15px;
+  color: #fff;
   text-decoration: none;
-  color: #4dbb70;
   font-size: 20px;
-  padding: 10px 15px;
-  transition: all 0.3s ease;
-  margin-left: 5px; 
-  text-align: center;
+  transition: color 0.3s ease;
 }
 
-.navbar a:hover {
-  color: #599d86;
-  transform: scale(1.1);
-  font-weight:bold;
+.navbar .button:hover {
+  color: #afd788;
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+.section {
+  padding-top: 60px;
 }
