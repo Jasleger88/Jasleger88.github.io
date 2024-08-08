@@ -1,9 +1,9 @@
 body {
     color: rgb(178, 232, 178);
-    background-color: rgb(23, 34, 23);
-    font-family: fantasy;
+    /* background-color: rgb(23, 34, 23); */
+    font-family: cursive;
     font-weight: bold;
-    background-image: url("https://images.unsplash.com/photo-1554609336-64209c2154f6?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    /* background-image: url("https://images.unsplash.com/photo-1554609336-64209c2154f6?q=80&w=2748&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
