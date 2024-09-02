@@ -13,10 +13,10 @@ const CombinedPage = () => {
             url: "https://i.imgur.com/abvFIti.jpeg",
             description: "Culinary Explorer"
         },
-        {
-            url: "https://images.unsplash.com/photo-1474366521946-c3d4b507abf2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWRpbmd8ZW58MHx8MHx8fDA%3D",
-            description: "Passion for Reading"
-        },
+        // {
+        //     url: "https://images.unsplash.com/photo-1474366521946-c3d4b507abf2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHJlYWRpbmd8ZW58MHx8MHx8fDA%3D",
+        //     description: "Passion for Reading"
+        // },
         {
             url: "https://i.imgur.com/Y5pj6bi.jpeg",
             description: "Meet My Hero"
@@ -63,17 +63,11 @@ const CombinedPage = () => {
             <div className="image-grid">
                 <h2 className="title">About Me</h2>
                 <p>
-                    <span>I am a passionate software engineer with a robust background in education and a strong commitment to personal and professional growth. My journey into software engineering was deeply inspired by my daughter, a cancer survivor. Witnessing her strength and resilience, I resolved to tackle any challenge head-on, leading me to pursue a rigorous education in software development, including attending General Assembly classes at 4 AM while in another country.</span>
+                    <span>I am a software engineer with a background in education, driven by a commitment to growth and innovation. Inspired by my daughter's resilience as a cancer survivor, I embraced software development, even attending 4 AM classes while abroad. With 13+ years as an educator, I’ve developed strong skills in communication, teamwork, and program management, which I bring to every project</span>
                 </p> <br />
                 <p>
-                    <span>With over 13 years of experience as an educator, I have honed my skills in teaching, teamwork, communication, public speaking, and program management. I thrive on collaboration, ensuring that everyone is aligned and working towards common goals. My technical pursuits are complemented by my dedication to maintaining a balanced lifestyle. I love to travel the world, spend quality time with my daughter, explore new cuisines, and stay active through regular workouts to ensure my mental well-being and relaxation.</span>
+                    <span>I thrive in collaborative environments and enjoy creating innovative solutions with clean, efficient code. Outside of work, I stay active, explore new cuisines, and travel, maintaining a balanced and positive mindset. I’m eager to join a team that shares my passion for technology and continuous improvement.</span>
                 </p> <br />
-                <p>
-                    <span>As a motivator and team player, I have also coached volleyball, further showcasing my ability to lead and inspire. My passion for helping others and fostering a cohesive team environment drives my commitment to developing innovative solutions and writing clean, efficient code. I excel under pressure and enjoy bringing humor and a positive attitude to the workplace.</span>
-                </p> <br />
-                <p>
-                    <span>I am eager to connect with teams that share my enthusiasm for technology and innovation. Let's collaborate and create impactful software solutions together, leveraging my unique blend of technical expertise, educational background, and passion for continuous improvement.</span>
-                </p>
             </div>
             <div className="skills-section">
                 <h2 className="title">Skills</h2>
@@ -88,7 +82,6 @@ const CombinedPage = () => {
             </div>
             <br />
             <div className="projects-container">
-        {/* <h2 className="title">My Deployed Projects</h2> */}
         <div className="project">
           <img src="https://i.imgur.com/vhlQEdu.png" alt="Code-Dash Quiz App" className="animated-image" />
           <div className="project-info">
@@ -128,15 +121,15 @@ const CombinedPage = () => {
         </div>
       </div>
             <div className="container2">
-                <h2 className="title">Resume</h2>
-                <a
+                {/* <h2 className="title">Resume</h2> */}
+                {/* <a
                     href={resumeLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="resume-link"
                 >
                     View My Resume
-                </a>
+                </a> */}
             </div>
 
             <div className="container">
