@@ -54,12 +54,12 @@ const Navbar = () => {
             >
                 Interests
             </Link> */}
-            <Link
+            {/* <Link
                 to="/resume"
                 className={`button is-success is-dark ${activeSection === "resume" ? "active" : ""}`}
             >
                 Resume
-            </Link>
+            </Link> */}
         </div>
     );
 };

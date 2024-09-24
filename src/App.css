@@ -18,21 +18,6 @@
   filter: drop-shadow(0 0 2em #eef7f9aa);
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
-
 .card {
   padding: 2em;
 }
@@ -59,20 +44,7 @@
   filter: drop-shadow(0 0 2em #eef7f9aa);
 }
 
-/* @keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-} */
 
 .card {
   padding: 2em;
@@ -83,7 +55,7 @@
 }
 
 .navbar {
-  background-color: #75a749;
+  background-color: #285943;
   padding: 10px 0;
   width: 100%;
   top: 0;
@@ -94,14 +66,14 @@
 
 .navbar .button {
   margin: 0 15px;
-  color: #fff;
+  color: #D7FFF1;
   text-decoration: none;
   font-size: 20px;
   transition: color 0.3s ease;
 }
 
 .navbar .button:hover {
-  color: #afd788;
+  color: #aff;
 }
 
 

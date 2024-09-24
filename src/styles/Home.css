@@ -25,17 +25,9 @@
     width: 450px;
     height: 600px;
     border-radius: 50%;
-    /* animation: rotate 5s linear ;  */
+  
   }
   
-  @keyframes rotate {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(360deg);
-    }
-  }
   .skills-section {
     padding: 20px;
     text-align: center;
@@ -60,26 +52,13 @@
     height: 100%;
     object-fit: contain;
     border-radius: 50%; 
-    /* transition: transform 0.5s ease-in-out; */
-    /* animation: rotate 5s infinite linear;  */
+  
 }
 
-/* @keyframes rotate {
-    from {
-        transform: rotateY(0deg);
-    }
-    to {
-        transform: rotateY(360deg);
-    }
-} */
-
-.skill-card:hover .skill-image {
-    animation-play-state: paused;
-}
 .skill-card p {
     margin-top: 10px;
     font-size: 14px;
-    color: #d2d5cf;
+    color: blue;
 }
 .container2 {
   display: flex;
@@ -91,6 +70,7 @@
   font-size: 2em;
   margin-bottom: 20px;
   margin-top: 20px;
+  color: black;
 }
 .resume-iframe {
   width: 100%;
@@ -137,9 +117,6 @@
   color: #bcd7be;
 }
 
-/* Existing styles... */
-
-/* Tablet Styles */
 @media screen and (max-width: 768px) {
   #title-main {
     font-size: 60px;
@@ -200,4 +177,12 @@
     height: 400px;
   }
 }
-  
+.resume-link-section {
+  margin: 20px 0; /* Add some space around the section */
+}
+
+.resume-link-section .button {
+  font-size: 16px; /* Adjust the font size for the button */
+  padding: 10px 20px; /* Increase padding for better appearance */
+}
+

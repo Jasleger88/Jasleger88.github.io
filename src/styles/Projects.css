@@ -8,10 +8,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 9px solid #04ff15;
+    border: 9px solid #285943;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
   }
   
   .project img {
@@ -27,14 +27,14 @@
   
   .project-info .button {
     margin-top: 10px;
-    background-color: rgb(167, 215, 170);
+    background-color:blue;
     color: black
   }
   
   .project-info p {
     margin-top: 10px;
     font-size: 14px;
-    color: #bcd7be;
+    color: black;
   }
   
   

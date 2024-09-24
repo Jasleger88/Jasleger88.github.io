@@ -1,5 +1,5 @@
 .footer {
-    background-color: #315031;
+    background-color: #77af9c;
     padding: 1rem 0;
     position: relative; 
     width: 100%;
@@ -22,7 +22,7 @@
 
 .social-links a {
     margin: 0 0.5rem;
-    color: #fff;
+    color: #285943;
     font-size: 1.5rem;
     text-decoration: none;
 }
