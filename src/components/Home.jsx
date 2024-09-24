@@ -93,7 +93,7 @@ return (
         <br />
 
         <div className="projects-container">
-            {/* Your existing projects code goes here */}
+  
         </div>
 
         <div className="container">

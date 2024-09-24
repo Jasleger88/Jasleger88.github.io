@@ -12,7 +12,7 @@ const Footer = () => {
            <h1>Contact Me</h1>
           </p>
           <div className="social-links">
-            <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/jasmineleger" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
             <a href="https://github.com/jasleger88" target="_blank" rel="noopener noreferrer">

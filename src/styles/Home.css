@@ -58,7 +58,7 @@
 .skill-card p {
     margin-top: 10px;
     font-size: 14px;
-    color: blue;
+    color:  rgb(238, 234, 228);
 }
 .container2 {
   display: flex;
